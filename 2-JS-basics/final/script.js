@@ -666,6 +666,7 @@ var john = {
         this.finalValues = [];
                 
         for (var i = 0; i < this.bills.length; i++) {
+        for (var i = 0; i < this.bills.length; i++) {
             // Determine percentage based on tipping rules
             var percentage;
             var bill = this.bills[i];
